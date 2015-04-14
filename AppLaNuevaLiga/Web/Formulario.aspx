@@ -14,9 +14,13 @@
         <p align="center">Crea tu propio personaje de ficción, dale tu voluntad y furza para covatir con sus enemmigos.</p>
         <p align="center">Elige con sabiduría que camino tomar para recorrer tu vida.</p>
 
-        <asp:Label Text="lolo" runat="server" />
+        <asp:Label Text="Nombre del Heroe o Villano:" runat="server" />
 
-        <asp:TextBox ID="NonbretBox" runat="server" Text='<%# Bind("Nombre") %>' OnTextChanged="NonbretBox_TextChanged" />
+        <asp:TextBox ID="NombretBox" runat="server" Text='<%# Bind("Nombre") %>' OnTextChanged="NombretBox_TextChanged" />
+
+        <asp:Label Text="Tipo:" runat="server" '<%# Bind("Tipo") %>' OnTextChanged="TipotBox_TextChanged"/>
+
+        <asp:TextBox ID="TipotBox" runat="server" text/>
 
     </div>
     </form>
