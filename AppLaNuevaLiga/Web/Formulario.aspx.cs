@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using AppLaNuevaLiga.Modelo;
 
 namespace AppLaNuevaLiga.Web
 {
@@ -15,6 +16,11 @@ namespace AppLaNuevaLiga.Web
         }
 
         protected void NonbretBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
         {
 
         }

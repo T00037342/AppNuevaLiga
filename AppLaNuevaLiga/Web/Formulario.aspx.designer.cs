@@ -22,21 +22,39 @@ namespace AppLaNuevaLiga.Web {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control NombretBox.
+        /// Control BtnHumano.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NombretBox;
+        protected global::System.Web.UI.WebControls.Button BtnHumano;
         
         /// <summary>
-        /// Control TipotBox.
+        /// Control BtnSHumano.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TipotBox;
+        protected global::System.Web.UI.WebControls.Button BtnSHumano;
+        
+        /// <summary>
+        /// Control BtnAliens.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnAliens;
+        
+        /// <summary>
+        /// Control BtnArtificiales.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnArtificiales;
     }
 }
