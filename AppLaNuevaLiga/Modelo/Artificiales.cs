@@ -40,6 +40,15 @@ namespace AppLaNuevaLiga.Modelo
         }
         #endregion
 
+        #region "Metodos Abstracto"
+        public override string Ifichas()
+        {
+            return "Add: " + this.add + "\n" +
+                   "Liga: " + this.liga + "\n" +
+                   "Enemigo: " + this.enemigo;
+        }
+
+        #endregion
 
         #region "Metos sobre escritos"
         public override string ToString()

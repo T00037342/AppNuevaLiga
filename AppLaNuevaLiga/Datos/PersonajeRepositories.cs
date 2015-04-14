@@ -36,7 +36,7 @@ namespace AppLaNuevaLiga.Datos
 
         public void AddCaraterizacion(Caraterizacion C) 
         {
-            data.App(C);
+            data.Add(C);
         }
 
         public IEnumerable<Caraterizacion> getData() 

@@ -104,5 +104,33 @@ namespace AppLaNuevaLiga.Modelo
         }
 
         #endregion
+
+        #region "Metodos SobreEscritos"
+        public override bool Equals(object obj)
+        {
+            Caraterizacion C = (Caraterizacion)obj;
+            bool result = false;
+
+            if ((this.nombreSuper == C.nombreSuper) &&
+                (this.tipoPersonaje == C.tipoPersonaje) &&
+                (this.identidadSecreta == C.identidadSecreta) &&
+                (this.trabajo == C.trabajo) &&
+                (this.lugarDeOrogen == C.lugarDeOrogen) &&
+                (this.sexo == C.sexo) &&
+                (this.habilidades == C.habilidades) &&
+                (this.debilidades == C.debilidades) &&
+                (this.armas == C.armas) &&
+                (this.personalidad == C.personalidad))
+
+                result = true;
+
+            return result;
+        }
+
+        public override int GetHashCode()
+        {
+            return this.ToString().GetHashCode();
+        }
+        #endregion
     }
 }
