@@ -6,49 +6,62 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <style type="text/css">
-        .container {
-            height: 414px;
+        #font1 {
+            color:#FFFFFF;
+            font:Algerian;
         }
-        #Radio1 {
-            margin-left: 0px;
+        #font {
+            color:#FFFFFF;
         }
-        #Select1 {
-            width: 89px;
+        .head {
+            background-color:#0B0B3B;
+        }
+        body {
+
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="container">
-        <h1 align="center">Heroe o Villano</h1>
-        <p align="center">Crea tu propio personaje de ficción, dale tu voluntad y furza para covatir con sus enemmigos.</p>
-        <p align="center">Elige con sabiduría que camino tomar para recorrer tu vida.</p>
+    <div class="head">
+        <div class="container">
+            <h1 align="center" id="font1">Heroe o Villano</h1>
+            <p align="center" id="font">Crea tu propio personaje de ficción, dale tu voluntad y furza para covatir con sus enemmigos.</p>
+            <p align="center" id="font">Elige con sabiduría que camino tomar para recorrer tu vida.</p>
+       </div> 
+    </div>
+        <br />
+        <br />
+   <div class="container">
+       <div class="row-fluid">
+           <div class="span3">
+               <img src="img/sman.png" alt="Heroe" />
+           </div>
+           <div class="span6">
+               <br />
+               <br />
+               <h3 align="center">Que deseas ser:</h3>
+               <center>
+                    <a href=".aspx">Humano</a> &nbsp | &nbsp
+                    <a href="SuperHumano.aspx">Super Humano</a> &nbsp | &nbsp
+                    <a href="Aliens.aspx">Aliens</a> &nbsp | &nbsp
+                    <a href="Artificiales.aspx">Artificiales</a> 
+               </center>
+           </div>
+           <div class="span3">
+               <img src="img/lex.png" alt="Villano"/>
+           </div>
+       </div>
 
-        <asp:Label Text="Que tipo de Personaje quieres ser?" runat="server" />
-
-        <br />
-        <br />
-        <br />
-        <asp:Button ID="BtnHumano" runat="server" Text="Humano" />
-        <asp:Button ID="BtnSHumano" runat="server" Text="Super Humano" />
-        <asp:Button ID="BtnAliens" runat="server" Text="Aliens" />
-        <asp:Button ID="BtnArtificiales" runat="server" OnClick="Button4_Click" Text="Artificiales" />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+       
+    </div>
+    <div id="fooder">
+        <div class="container">
+            <h4 align="center">Ⓒ Copyright Braulio and Luis Albrto.</h4>
         </div>
-        <p>
-            &nbsp;</p>
+    </div>
     </form>
 </body>
 </html>
