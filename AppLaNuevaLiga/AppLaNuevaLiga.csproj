@@ -61,6 +61,7 @@
     <Content Include="Web\Aliens.aspx" />
     <Content Include="Web\Formulario.aspx" />
     <Content Include="Web\Humano.aspx" />
+    <Content Include="Web\SuperHumanos.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\PersonajeRepositories.cs" />
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="Web\Humano.aspx.designer.cs">
       <DependentUpon>Humano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\SuperHumanos.aspx.cs">
+      <DependentUpon>SuperHumanos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SuperHumanos.aspx.designer.cs">
+      <DependentUpon>SuperHumanos.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
